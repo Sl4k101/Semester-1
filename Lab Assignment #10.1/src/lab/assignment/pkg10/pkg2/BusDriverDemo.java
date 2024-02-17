@@ -4,16 +4,16 @@ package lab.assignment.pkg10.pkg2;
 import java.util.Scanner;
 
 public class BusDriverDemo {
-    
+
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System.in);
 
         // Create two BusDriver objects
         BusDriver driver1 = new BusDriver();
         BusDriver driver2 = new BusDriver();
 
-        // Get user input for the first driver
+        // Get user input for the first driver g
         System.out.println("Enter details for Driver 1:");
         enterDriverDetails(driver1, input);
 
